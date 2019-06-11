@@ -28,8 +28,6 @@ Em maiores datasets o comando "reduceByKey" tem melhor desempenho, visto que com
 
 6 - O que o código Scala abaixo faz?
 
-![Código em Scala](http://localhost:8888/notebooks/Desktop/Spark-Python/image1.png)
-
 O código descrito acima realiza as seguintes funções em descrição linha a linha:
 
 1.  Cria a variável textFile e armazena o conteudo de um arquivo texto carregado de um sistema de dados distribuidos HDFS para a mesma;
