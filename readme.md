@@ -48,73 +48,79 @@ Todo o código desenvolvido se encontra no arquivo .ipynbna raiz do repositório
 2. Numero total de erros 404: 20901 
 
 3. As 5 URLs que mais causaram erros 404: 
-/pub/winvn/readme.txt                           2004
-/pub/winvn/release.txt                          1732
-/shuttle/missions/STS-69/mission-STS-69.html     683
-/shuttle/missions/sts-68/ksc-upclose.gif         428
-/history/apollo/a-001/a-001-patch-small.gif      384
-Name: request_Path, dtype: int64 
+
+| Url                                            |Ocorrências|
+| ---------------------------------------------- | --------- |
+| /pub/winvn/readme.txt                          | 2004      |
+| /pub/winvn/release.txt                         | 1732      |
+| /shuttle/missions/STS-69/mission-STS-69.html   | 683       |
+| /shuttle/missions/sts-68/ksc-upclose.gif       | 428       |
+| /history/apollo/a-001/a-001-patch-small.gif    | 384       |
+ 
 
 4. Quantidade de erros 404 por dia: 
-06/Jul/1995    640
-19/Jul/1995    639
-30/Aug/1995    571
-07/Jul/1995    570
-07/Aug/1995    537
-13/Jul/1995    532
-31/Aug/1995    526
-05/Jul/1995    497
-03/Jul/1995    474
-12/Jul/1995    471
-11/Jul/1995    471
-18/Jul/1995    465
-25/Jul/1995    461
-20/Jul/1995    428
-24/Aug/1995    420
-29/Aug/1995    420
-25/Aug/1995    415
-14/Jul/1995    413
-28/Aug/1995    410
-17/Jul/1995    406
-10/Jul/1995    398
-08/Aug/1995    391
-06/Aug/1995    373
-27/Aug/1995    370
-26/Aug/1995    366
-04/Jul/1995    359
-09/Jul/1995    348
-04/Aug/1995    346
-23/Aug/1995    345
-27/Jul/1995    336
-26/Jul/1995    336
-21/Jul/1995    334
-24/Jul/1995    328
-15/Aug/1995    327
-01/Jul/1995    316
-10/Aug/1995    315
-20/Aug/1995    312
-21/Aug/1995    305
-03/Aug/1995    304
-08/Jul/1995    302
-02/Jul/1995    291
-22/Aug/1995    288
-14/Aug/1995    287
-09/Aug/1995    279
-17/Aug/1995    271
-11/Aug/1995    263
-16/Aug/1995    259
-16/Jul/1995    257
-18/Aug/1995    256
-15/Jul/1995    254
-01/Aug/1995    243
-05/Aug/1995    236
-23/Jul/1995    233
-13/Aug/1995    216
-19/Aug/1995    209
-12/Aug/1995    196
-22/Jul/1995    192
-28/Jul/1995     94
-Name: date, dtype: int64 
+
+|    Data     | Ocorrências |
+| ----------- | ----------- |
+| 06/Jul/1995 |   640       |
+| 19/Jul/1995 |   639       |
+| 30/Aug/1995 |   571       |
+| 07/Jul/1995 |   570       |
+| 07/Aug/1995 |   537       |
+| 13/Jul/1995 |   532       |
+| 31/Aug/1995 |   526       |
+| 05/Jul/1995 |   497       |
+| 03/Jul/1995 |   474       |
+| 12/Jul/1995 |   471       |
+| 11/Jul/1995 |   471       |
+| 18/Jul/1995 |   465       |
+| 25/Jul/1995 |   461       |
+| 20/Jul/1995 |   428       |
+| 24/Aug/1995 |   420       |
+| 29/Aug/1995 |   420       |
+| 25/Aug/1995 |   415       |
+| 14/Jul/1995 |   413       |
+| 28/Aug/1995 |   410       |
+| 17/Jul/1995 |   406       |
+| 10/Jul/1995 |   398       |
+| 08/Aug/1995 |   391       |
+| 06/Aug/1995 |   373       |
+| 27/Aug/1995 |   370       |
+| 26/Aug/1995 |   366       |
+| 04/Jul/1995 |   359       |
+| 09/Jul/1995 |   348       |
+| 04/Aug/1995 |   346       |
+| 23/Aug/1995 |   345       |
+| 27/Jul/1995 |   336       |
+| 26/Jul/1995 |   336       |
+| 21/Jul/1995 |   334       |
+| 24/Jul/1995 |   328       |
+| 15/Aug/1995 |   327       |
+| 01/Jul/1995 |   316       |
+| 10/Aug/1995 |   315       |
+| 20/Aug/1995 |   312       |
+| 21/Aug/1995 |   305       |
+| 03/Aug/1995 |   304       |
+| 08/Jul/1995 |   302       |
+| 02/Jul/1995 |   291       |
+| 22/Aug/1995 |   288       |
+| 14/Aug/1995 |   287       |
+| 09/Aug/1995 |   279       |
+| 17/Aug/1995 |   271       |
+| 11/Aug/1995 |   263       |
+| 16/Aug/1995 |   259       |
+| 16/Jul/1995 |   257       |
+| 18/Aug/1995 |   256       |
+| 15/Jul/1995 |   254       |
+| 01/Aug/1995 |   243       |
+| 05/Aug/1995 |   236       |
+| 23/Jul/1995 |   233       |
+| 13/Aug/1995 |   216       |
+| 19/Aug/1995 |   209       |
+| 12/Aug/1995 |   196       |
+| 22/Jul/1995 |   192       |
+| 28/Jul/1995 |    94       |
+        
 
 5. Total de bytes retornados: 61.0243 GB
 ## Instalação e Requisitos
